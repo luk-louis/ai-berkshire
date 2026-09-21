@@ -1,0 +1,1 @@
+npx.cmd @deepseek-ai/dsh web
