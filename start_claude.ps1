@@ -6,7 +6,7 @@ Write-Host "🚀 正在配置 Claude 环境..." -ForegroundColor Cyan
 
 # 设置所有环境变量
 $env:ANTHROPIC_BASE_URL = "https://api.deepseek.com/anthropic"
-$env:ANTHROPIC_AUTH_TOKEN = "sk-ab2c84d6f6dd407b9f329f4e69506afa"
+$env:ANTHROPIC_AUTH_TOKEN = ""
 $env:ANTHROPIC_MODEL = "deepseek-flash"
 $env:ANTHROPIC_DEFAULT_OPUS_MODEL = "deepseek-flash[1m]"
 $env:ANTHROPIC_DEFAULT_SONNET_MODEL = "deepseek-flash[1m]"
